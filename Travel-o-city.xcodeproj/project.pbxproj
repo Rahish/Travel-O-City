@@ -1,0 +1,730 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		0499918B2266F40F0030D373 /* RoomDtlsVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0499918A2266F40F0030D373 /* RoomDtlsVC.swift */; };
+		0499918C2267091F0030D373 /* FirebaseManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 049C23032264A91900881039 /* FirebaseManager.swift */; };
+		049C22D4226496F300881039 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 049C22D3226496F300881039 /* AppDelegate.swift */; };
+		049C22D6226496F300881039 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 049C22D5226496F300881039 /* ViewController.swift */; };
+		049C22D9226496F300881039 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 049C22D7226496F300881039 /* Main.storyboard */; };
+		049C22DB226496F400881039 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 049C22DA226496F400881039 /* Assets.xcassets */; };
+		049C22DE226496F400881039 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 049C22DC226496F400881039 /* LaunchScreen.storyboard */; };
+		049C22E9226496F400881039 /* TravelocityTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 049C22E8226496F400881039 /* TravelocityTests.swift */; };
+		049C22F52264976B00881039 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 049C22F42264976B00881039 /* GoogleService-Info.plist */; };
+		049C22FC2264987400881039 /* Utils.swift in Sources */ = {isa = PBXBuildFile; fileRef = 049C22FB2264987400881039 /* Utils.swift */; };
+		049C23012264A5A700881039 /* AddHotelVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 049C23002264A5A700881039 /* AddHotelVC.swift */; };
+		049C23042264A91900881039 /* FirebaseManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 049C23032264A91900881039 /* FirebaseManager.swift */; };
+		049C23062264B65A00881039 /* AddRoomTypeVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 049C23052264B65A00881039 /* AddRoomTypeVC.swift */; };
+		049C23082264B72A00881039 /* HotelDtls.swift in Sources */ = {isa = PBXBuildFile; fileRef = 049C23072264B72A00881039 /* HotelDtls.swift */; };
+		049C230B2264B90E00881039 /* Constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = 049C230A2264B90E00881039 /* Constants.swift */; };
+		04D33FC4226595C400E3918D /* AddRoomPriceVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04D33FC3226595C400E3918D /* AddRoomPriceVC.swift */; };
+		04D33FC62265998C00E3918D /* CustomPickerDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04D33FC52265998C00E3918D /* CustomPickerDelegate.swift */; };
+		04D33FC82265C3A800E3918D /* RoomTypes.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04D33FC72265C3A800E3918D /* RoomTypes.swift */; };
+		04D33FCC2265ED0900E3918D /* FIRObserverManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04D33FCA2265ED0900E3918D /* FIRObserverManager.swift */; };
+		04D33FCD2265ED0900E3918D /* FIRObserverManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04D33FCA2265ED0900E3918D /* FIRObserverManager.swift */; };
+		04D33FCE2265ED0900E3918D /* GeneralListManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04D33FCB2265ED0900E3918D /* GeneralListManager.swift */; };
+		04D33FCF2265ED0900E3918D /* GeneralListManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04D33FCB2265ED0900E3918D /* GeneralListManager.swift */; };
+		04D33FD12265EEAF00E3918D /* Reachability.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04D33FD02265EEAF00E3918D /* Reachability.swift */; };
+		04D33FD22265EEAF00E3918D /* Reachability.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04D33FD02265EEAF00E3918D /* Reachability.swift */; };
+		04D33FD42265F0D800E3918D /* HotelListManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04D33FD32265F0D800E3918D /* HotelListManager.swift */; };
+		04D33FD52265F0D800E3918D /* HotelListManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04D33FD32265F0D800E3918D /* HotelListManager.swift */; };
+		04D33FD62265F42100E3918D /* Constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = 049C230A2264B90E00881039 /* Constants.swift */; };
+		04D33FD72265F8C300E3918D /* HotelDtls.swift in Sources */ = {isa = PBXBuildFile; fileRef = 049C23072264B72A00881039 /* HotelDtls.swift */; };
+		04D33FD922660B0700E3918D /* RoomTypesListManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04D33FD822660B0700E3918D /* RoomTypesListManager.swift */; };
+		04D33FDA22660B0700E3918D /* RoomTypesListManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04D33FD822660B0700E3918D /* RoomTypesListManager.swift */; };
+		04D33FDB22660CC600E3918D /* RoomTypes.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04D33FC72265C3A800E3918D /* RoomTypes.swift */; };
+		04D33FDD22660EFE00E3918D /* RoomDtls.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04D33FDC22660EFE00E3918D /* RoomDtls.swift */; };
+		04D33FDE22660EFE00E3918D /* RoomDtls.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04D33FDC22660EFE00E3918D /* RoomDtls.swift */; };
+		F3FF84232B3FF45B77605B82 /* Pods_TravelocityTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 242AFB72D955211716166B6A /* Pods_TravelocityTests.framework */; };
+		FE9311BC969F923C0EE08F86 /* Pods_Travelocity.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C7273F0FF78C6A1222AFE5A9 /* Pods_Travelocity.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		049C22E5226496F400881039 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 049C22C8226496F300881039 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 049C22CF226496F300881039;
+			remoteInfo = Travelocity;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		0499918A2266F40F0030D373 /* RoomDtlsVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RoomDtlsVC.swift; sourceTree = "<group>"; };
+		049C22D0226496F300881039 /* Travelocity.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Travelocity.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		049C22D3226496F300881039 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		049C22D5226496F300881039 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		049C22D8226496F300881039 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		049C22DA226496F400881039 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		049C22DD226496F400881039 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		049C22DF226496F400881039 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		049C22E4226496F400881039 /* TravelocityTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TravelocityTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		049C22E8226496F400881039 /* TravelocityTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TravelocityTests.swift; sourceTree = "<group>"; };
+		049C22EA226496F400881039 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		049C22F42264976B00881039 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
+		049C22FB2264987400881039 /* Utils.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Utils.swift; sourceTree = "<group>"; };
+		049C23002264A5A700881039 /* AddHotelVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddHotelVC.swift; sourceTree = "<group>"; };
+		049C23032264A91900881039 /* FirebaseManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FirebaseManager.swift; sourceTree = "<group>"; };
+		049C23052264B65A00881039 /* AddRoomTypeVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddRoomTypeVC.swift; sourceTree = "<group>"; };
+		049C23072264B72A00881039 /* HotelDtls.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HotelDtls.swift; sourceTree = "<group>"; };
+		049C230A2264B90E00881039 /* Constants.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Constants.swift; sourceTree = "<group>"; };
+		04D33FC3226595C400E3918D /* AddRoomPriceVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddRoomPriceVC.swift; sourceTree = "<group>"; };
+		04D33FC52265998C00E3918D /* CustomPickerDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomPickerDelegate.swift; sourceTree = "<group>"; };
+		04D33FC72265C3A800E3918D /* RoomTypes.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RoomTypes.swift; sourceTree = "<group>"; };
+		04D33FCA2265ED0900E3918D /* FIRObserverManager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FIRObserverManager.swift; sourceTree = "<group>"; };
+		04D33FCB2265ED0900E3918D /* GeneralListManager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GeneralListManager.swift; sourceTree = "<group>"; };
+		04D33FD02265EEAF00E3918D /* Reachability.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Reachability.swift; sourceTree = "<group>"; };
+		04D33FD32265F0D800E3918D /* HotelListManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HotelListManager.swift; sourceTree = "<group>"; };
+		04D33FD822660B0700E3918D /* RoomTypesListManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RoomTypesListManager.swift; sourceTree = "<group>"; };
+		04D33FDC22660EFE00E3918D /* RoomDtls.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RoomDtls.swift; sourceTree = "<group>"; };
+		04FB41DD055AE0D9EC0045D5 /* Pods-TravelocityTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TravelocityTests.debug.xcconfig"; path = "Target Support Files/Pods-TravelocityTests/Pods-TravelocityTests.debug.xcconfig"; sourceTree = "<group>"; };
+		242AFB72D955211716166B6A /* Pods_TravelocityTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_TravelocityTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		3475064729FDC8FE50EEFF35 /* Pods-Travelocity.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Travelocity.release.xcconfig"; path = "Target Support Files/Pods-Travelocity/Pods-Travelocity.release.xcconfig"; sourceTree = "<group>"; };
+		C7273F0FF78C6A1222AFE5A9 /* Pods_Travelocity.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Travelocity.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		CF84518C52258E406239553F /* Pods-TravelocityTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TravelocityTests.release.xcconfig"; path = "Target Support Files/Pods-TravelocityTests/Pods-TravelocityTests.release.xcconfig"; sourceTree = "<group>"; };
+		E8DF853CFE2F477895B3A904 /* Pods-Travelocity.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Travelocity.debug.xcconfig"; path = "Target Support Files/Pods-Travelocity/Pods-Travelocity.debug.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		049C22CD226496F300881039 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FE9311BC969F923C0EE08F86 /* Pods_Travelocity.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		049C22E1226496F400881039 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F3FF84232B3FF45B77605B82 /* Pods_TravelocityTests.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		049C22C7226496F300881039 = {
+			isa = PBXGroup;
+			children = (
+				049C22D2226496F300881039 /* Travel-o-city */,
+				049C22E7226496F400881039 /* TravelocityTests */,
+				049C22D1226496F300881039 /* Products */,
+				24F861063B25D2ABFD58105E /* Pods */,
+				A7D57470AA9A22D38B524516 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		049C22D1226496F300881039 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				049C22D0226496F300881039 /* Travelocity.app */,
+				049C22E4226496F400881039 /* TravelocityTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		049C22D2226496F300881039 /* Travel-o-city */ = {
+			isa = PBXGroup;
+			children = (
+				049C22D3226496F300881039 /* AppDelegate.swift */,
+				04D33FD02265EEAF00E3918D /* Reachability.swift */,
+				049C22F32264974F00881039 /* Plist */,
+				049C22F9226497AF00881039 /* MVC */,
+				049C23022264A90100881039 /* FirebaseManager */,
+				049C22F82264979C00881039 /* Utils */,
+				049C22DA226496F400881039 /* Assets.xcassets */,
+			);
+			path = "Travel-o-city";
+			sourceTree = "<group>";
+		};
+		049C22E7226496F400881039 /* TravelocityTests */ = {
+			isa = PBXGroup;
+			children = (
+				049C22E8226496F400881039 /* TravelocityTests.swift */,
+				049C22EA226496F400881039 /* Info.plist */,
+			);
+			path = TravelocityTests;
+			sourceTree = "<group>";
+		};
+		049C22F32264974F00881039 /* Plist */ = {
+			isa = PBXGroup;
+			children = (
+				049C22DF226496F400881039 /* Info.plist */,
+				049C22F42264976B00881039 /* GoogleService-Info.plist */,
+			);
+			path = Plist;
+			sourceTree = "<group>";
+		};
+		049C22F62264977500881039 /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				049C22D5226496F300881039 /* ViewController.swift */,
+				049C23002264A5A700881039 /* AddHotelVC.swift */,
+				04D33FC3226595C400E3918D /* AddRoomPriceVC.swift */,
+				049C23052264B65A00881039 /* AddRoomTypeVC.swift */,
+				0499918A2266F40F0030D373 /* RoomDtlsVC.swift */,
+			);
+			path = Controllers;
+			sourceTree = "<group>";
+		};
+		049C22F72264977E00881039 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				049C22D7226496F300881039 /* Main.storyboard */,
+				049C22DC226496F400881039 /* LaunchScreen.storyboard */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		049C22F82264979C00881039 /* Utils */ = {
+			isa = PBXGroup;
+			children = (
+				049C22FB2264987400881039 /* Utils.swift */,
+				049C230A2264B90E00881039 /* Constants.swift */,
+				04D33FC52265998C00E3918D /* CustomPickerDelegate.swift */,
+			);
+			path = Utils;
+			sourceTree = "<group>";
+		};
+		049C22F9226497AF00881039 /* MVC */ = {
+			isa = PBXGroup;
+			children = (
+				049C22FA226497BA00881039 /* Models */,
+				049C22F72264977E00881039 /* Views */,
+				049C22F62264977500881039 /* Controllers */,
+			);
+			path = MVC;
+			sourceTree = "<group>";
+		};
+		049C22FA226497BA00881039 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				04D33FC92265ECF900E3918D /* FirebaseHandler */,
+				049C23072264B72A00881039 /* HotelDtls.swift */,
+				04D33FC72265C3A800E3918D /* RoomTypes.swift */,
+				04D33FDC22660EFE00E3918D /* RoomDtls.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		049C23022264A90100881039 /* FirebaseManager */ = {
+			isa = PBXGroup;
+			children = (
+				049C23032264A91900881039 /* FirebaseManager.swift */,
+			);
+			path = FirebaseManager;
+			sourceTree = "<group>";
+		};
+		04D33FC92265ECF900E3918D /* FirebaseHandler */ = {
+			isa = PBXGroup;
+			children = (
+				04D33FCA2265ED0900E3918D /* FIRObserverManager.swift */,
+				04D33FCB2265ED0900E3918D /* GeneralListManager.swift */,
+				04D33FD32265F0D800E3918D /* HotelListManager.swift */,
+				04D33FD822660B0700E3918D /* RoomTypesListManager.swift */,
+			);
+			path = FirebaseHandler;
+			sourceTree = "<group>";
+		};
+		24F861063B25D2ABFD58105E /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				E8DF853CFE2F477895B3A904 /* Pods-Travelocity.debug.xcconfig */,
+				3475064729FDC8FE50EEFF35 /* Pods-Travelocity.release.xcconfig */,
+				04FB41DD055AE0D9EC0045D5 /* Pods-TravelocityTests.debug.xcconfig */,
+				CF84518C52258E406239553F /* Pods-TravelocityTests.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		A7D57470AA9A22D38B524516 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				C7273F0FF78C6A1222AFE5A9 /* Pods_Travelocity.framework */,
+				242AFB72D955211716166B6A /* Pods_TravelocityTests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		049C22CF226496F300881039 /* Travelocity */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 049C22ED226496F400881039 /* Build configuration list for PBXNativeTarget "Travelocity" */;
+			buildPhases = (
+				65DC73B2AAA372613D1F406E /* [CP] Check Pods Manifest.lock */,
+				049C22CC226496F300881039 /* Sources */,
+				049C22CD226496F300881039 /* Frameworks */,
+				049C22CE226496F300881039 /* Resources */,
+				607FF18FABAD6BDED796EFEE /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Travelocity;
+			productName = Travelocity;
+			productReference = 049C22D0226496F300881039 /* Travelocity.app */;
+			productType = "com.apple.product-type.application";
+		};
+		049C22E3226496F400881039 /* TravelocityTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 049C22F0226496F400881039 /* Build configuration list for PBXNativeTarget "TravelocityTests" */;
+			buildPhases = (
+				7E9B7C925FAEA4BD1E6975F1 /* [CP] Check Pods Manifest.lock */,
+				049C22E0226496F400881039 /* Sources */,
+				049C22E1226496F400881039 /* Frameworks */,
+				049C22E2226496F400881039 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				049C22E6226496F400881039 /* PBXTargetDependency */,
+			);
+			name = TravelocityTests;
+			productName = TravelocityTests;
+			productReference = 049C22E4226496F400881039 /* TravelocityTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		049C22C8226496F300881039 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1010;
+				LastUpgradeCheck = 1010;
+				ORGANIZATIONNAME = mac;
+				TargetAttributes = {
+					049C22CF226496F300881039 = {
+						CreatedOnToolsVersion = 10.1;
+					};
+					049C22E3226496F400881039 = {
+						CreatedOnToolsVersion = 10.1;
+						TestTargetID = 049C22CF226496F300881039;
+					};
+				};
+			};
+			buildConfigurationList = 049C22CB226496F300881039 /* Build configuration list for PBXProject "Travelocity" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 049C22C7226496F300881039;
+			productRefGroup = 049C22D1226496F300881039 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				049C22CF226496F300881039 /* Travelocity */,
+				049C22E3226496F400881039 /* TravelocityTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		049C22CE226496F300881039 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				049C22DE226496F400881039 /* LaunchScreen.storyboard in Resources */,
+				049C22F52264976B00881039 /* GoogleService-Info.plist in Resources */,
+				049C22DB226496F400881039 /* Assets.xcassets in Resources */,
+				049C22D9226496F300881039 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		049C22E2226496F400881039 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		607FF18FABAD6BDED796EFEE /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Travelocity/Pods-Travelocity-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/GoogleUtilities/GoogleUtilities.framework",
+				"${BUILT_PRODUCTS_DIR}/leveldb-library/leveldb.framework",
+				"${BUILT_PRODUCTS_DIR}/nanopb/nanopb.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/GoogleUtilities.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/leveldb.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/nanopb.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-Travelocity/Pods-Travelocity-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		65DC73B2AAA372613D1F406E /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Travelocity-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		7E9B7C925FAEA4BD1E6975F1 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-TravelocityTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		049C22CC226496F300881039 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				04D33FC82265C3A800E3918D /* RoomTypes.swift in Sources */,
+				049C23042264A91900881039 /* FirebaseManager.swift in Sources */,
+				04D33FCC2265ED0900E3918D /* FIRObserverManager.swift in Sources */,
+				049C22D6226496F300881039 /* ViewController.swift in Sources */,
+				04D33FD42265F0D800E3918D /* HotelListManager.swift in Sources */,
+				049C22D4226496F300881039 /* AppDelegate.swift in Sources */,
+				04D33FC4226595C400E3918D /* AddRoomPriceVC.swift in Sources */,
+				049C22FC2264987400881039 /* Utils.swift in Sources */,
+				04D33FC62265998C00E3918D /* CustomPickerDelegate.swift in Sources */,
+				04D33FDD22660EFE00E3918D /* RoomDtls.swift in Sources */,
+				04D33FD12265EEAF00E3918D /* Reachability.swift in Sources */,
+				049C23082264B72A00881039 /* HotelDtls.swift in Sources */,
+				049C23012264A5A700881039 /* AddHotelVC.swift in Sources */,
+				049C23062264B65A00881039 /* AddRoomTypeVC.swift in Sources */,
+				04D33FCE2265ED0900E3918D /* GeneralListManager.swift in Sources */,
+				0499918B2266F40F0030D373 /* RoomDtlsVC.swift in Sources */,
+				04D33FD922660B0700E3918D /* RoomTypesListManager.swift in Sources */,
+				049C230B2264B90E00881039 /* Constants.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		049C22E0226496F400881039 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				049C22E9226496F400881039 /* TravelocityTests.swift in Sources */,
+				04D33FD52265F0D800E3918D /* HotelListManager.swift in Sources */,
+				04D33FCF2265ED0900E3918D /* GeneralListManager.swift in Sources */,
+				04D33FD22265EEAF00E3918D /* Reachability.swift in Sources */,
+				0499918C2267091F0030D373 /* FirebaseManager.swift in Sources */,
+				04D33FD72265F8C300E3918D /* HotelDtls.swift in Sources */,
+				04D33FCD2265ED0900E3918D /* FIRObserverManager.swift in Sources */,
+				04D33FDB22660CC600E3918D /* RoomTypes.swift in Sources */,
+				04D33FDE22660EFE00E3918D /* RoomDtls.swift in Sources */,
+				04D33FDA22660B0700E3918D /* RoomTypesListManager.swift in Sources */,
+				04D33FD62265F42100E3918D /* Constants.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		049C22E6226496F400881039 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 049C22CF226496F300881039 /* Travelocity */;
+			targetProxy = 049C22E5226496F400881039 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		049C22D7226496F300881039 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				049C22D8226496F300881039 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		049C22DC226496F400881039 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				049C22DD226496F400881039 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		049C22EB226496F400881039 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.1;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		049C22EC226496F400881039 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		049C22EE226496F400881039 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = E8DF853CFE2F477895B3A904 /* Pods-Travelocity.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "Travel-o-city/Plist/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = HourDeals.Travelocity;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		049C22EF226496F400881039 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 3475064729FDC8FE50EEFF35 /* Pods-Travelocity.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "Travel-o-city/Plist/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = HourDeals.Travelocity;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		049C22F1226496F400881039 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 04FB41DD055AE0D9EC0045D5 /* Pods-TravelocityTests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = TravelocityTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = HourDeals.TravelocityTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Travelocity.app/Travelocity";
+			};
+			name = Debug;
+		};
+		049C22F2226496F400881039 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = CF84518C52258E406239553F /* Pods-TravelocityTests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = TravelocityTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = HourDeals.TravelocityTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Travelocity.app/Travelocity";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		049C22CB226496F300881039 /* Build configuration list for PBXProject "Travelocity" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				049C22EB226496F400881039 /* Debug */,
+				049C22EC226496F400881039 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		049C22ED226496F400881039 /* Build configuration list for PBXNativeTarget "Travelocity" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				049C22EE226496F400881039 /* Debug */,
+				049C22EF226496F400881039 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		049C22F0226496F400881039 /* Build configuration list for PBXNativeTarget "TravelocityTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				049C22F1226496F400881039 /* Debug */,
+				049C22F2226496F400881039 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 049C22C8226496F300881039 /* Project object */;
+}
